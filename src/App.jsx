@@ -1,5 +1,5 @@
 import React, { createContext, useState } from 'react';
-import { API, Counter, Counter2, Counter3, Counter4, Counter5, Parent } from './components/index';
+import { API, Counter, Counter2, Counter3, Counter4, Counter5, Form1, Form2, Form3, Parent } from './components/index';
 
 //createContextで、SapmleContextを作成する。
 export const SampleContext = createContext();
@@ -31,6 +31,15 @@ function App() {
 
       <p>useMemoのサンプルです</p>
       <Counter5 />
+
+      <p>useRefのサンプル１です</p>
+      <Form1 />
+
+      <p>useRefのサンプル２です</p>
+      <Form2 />
+
+      <p>useRefのサンプル３です</p>
+      <Form3 />
     </div>
   );
 }

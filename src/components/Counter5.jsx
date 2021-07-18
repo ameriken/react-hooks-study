@@ -15,7 +15,7 @@ const Counter5 = () => {
     const weightFunction = useMemo(() => {
         // 重い処理を実行する。
         let i = 0;
-        while (i < 1000000000) {
+        while (i < 10) {
             i++;
         };
 
