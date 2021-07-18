@@ -1,4 +1,4 @@
-// // useEffectのサンプルコード1です。
+// // useCallbackのサンプルコード1です。
 
 // // 関数コンポーネントでuseCallbackを使用するためにインポートする。
 // import React, { useState } from 'react';
@@ -57,7 +57,7 @@
 // export default Counter4
 
 
-// // useEffectのサンプルコード2です。
+// // useCallbackのサンプルコード2です。
 
 // // 関数コンポーネントでuseCallbackを使用するためにインポートする。
 // import React, { useState } from 'react';
@@ -115,7 +115,7 @@
 
 // export default Counter4
 
-// // useEffectのサンプルコード3です。
+// // useCallbackのサンプルコード3です。
 
 // 関数コンポーネントでuseCallbackを使用するためにインポートする。
 import React, { useCallback, useState } from 'react';
