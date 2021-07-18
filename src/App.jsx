@@ -1,5 +1,5 @@
 import React, { createContext, useState } from 'react';
-import { Counter, Counter2, Parent } from './components/index';
+import { Counter, Counter2, Counter3, Parent } from './components/index';
 
 //createContextで、SapmleContextを作成する。
 export const SampleContext = createContext();
@@ -19,6 +19,12 @@ function App() {
       <SampleContext.Provider value={ sampleContext }>
         <Parent />
       </SampleContext.Provider>
+
+      <p>useReducerのサンプル１です</p>
+      <Counter3 />
+
+      <p>useReducerのサンプル２です</p>
+      {/* <Counter3 /> */}
     </div>
   );
 }
