@@ -1,3 +1,4 @@
+export { default as Address } from './Address';
 export { default as Child } from './Child';
 export { default as Counter } from './Counter';
 export { default as Counter2 } from './Counter2';
