@@ -1,5 +1,31 @@
 # React-hooks-study
-React hooksの勉強するためのデモ
+React hooksを勉強するためのサンプルコードです。
+
+## useState
+* 対象ファイル：`src/compnents/Counter.jsx`
+
+## useEffect
+* 対象ファイル：`src/compnents/Counter2.jsx`
+
+## useContext
+* 対象ファイル：`src/compnents/Parent.jsx`
+* 対象ファイル：`src/compnents/Child.jsx`
+* 対象ファイル：`src/compnents/Grandchild.jsx`
+
+## useReducer
+* 対象ファイル：`src/compnents/Coutner3.jsx`
+* 対象ファイル：`src/compnents/API.jsx`
+
+## useCallback
+* 対象ファイル：`src/compnents/Counter4.jsx`
+
+## useMemo
+* 対象ファイル：`src/compnents/Counter5.jsx`
+
+## useRef
+* 対象ファイル：`src/compnents/Form1.jsx`
+* 対象ファイル：`src/compnents/Form2.jsx`
+* 対象ファイル：`src/compnents/Form3.jsx`
 
 # Getting Started with Create React App
 
